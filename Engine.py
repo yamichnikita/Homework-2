@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-@dataclass
+@dataclass  # зачем нужен?
 class Engine:
     volume: int
     pistons: int
